@@ -1,16 +1,12 @@
-# calculating the average of three numbers ;
+TOTAL_NUMBER_OF_VALUES = 3
 
-x = float(input('Enter your first number : '))
+first_number = float(input('Enter your first number : '))
 
+second_number = float(input('Enter your second number : '))
 
-y = float(input('Enter your second number : '))
+third_number = float(input('Enter your third number : '))
 
+average =  (first_number + second_number + third_number) / TOTAL_NUMBER_OF_VALUES
 
-z = float(input('Enter your third number : '))
-
-
-Average = (x + y + z) / 3 
-
-
-print('Based on the numbers you entered, the average is :', Average)
+print('Based on the numbers you entered, the average is :', average)
 
