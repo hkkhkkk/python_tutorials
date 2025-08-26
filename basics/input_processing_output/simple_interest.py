@@ -1,14 +1,12 @@
-#user calculating for simple interest and need to present these key values outlined below:
-P = float(input('Input your principal amount , P: '))
+PERCENTAGE = 100
 
-R = float(input('Input the Rate of Interest , R: '))
+principal_amount = float(input('Input your Principal Amount : '))
 
+rate_of_interest = float(input('Input the Rate of Interest as percentage (without a percentage symbol): '))
 
-T = float(input('Input the Time , T: '))
+time = float(input('Input the Time in years : '))
 
-# calculate Simple Interest is represented as SI  
-SI = (P * R * T) / 100
+simple_interest = (principal_amount * rate_of_interest * time) / PERCENTAGE
 
-
-print('The simple interest(%), based on the values you inputted will be: ', SI)
+print('The simple interest(%), based on the values you inputted will be: ', simple_interest)
 
