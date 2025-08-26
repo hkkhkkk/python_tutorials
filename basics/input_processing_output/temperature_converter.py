@@ -1,11 +1,11 @@
-# calculating the temperature in fahrenheit (F) ;
+SCALING_FACTOR = 9 / 5
 
-C = float(input('Input your temperature in Celcius, C: '))
+OFFSET_VALUE = 32
 
+temperature_in_celcius = float(input('Input your temperature in Celcius, C: '))
 
-F = (C * (9 / 5) + 32 ) 
+temperature_in_fahrenheit = (temperature_in_celcius * SCALING_FACTOR) + OFFSET_VALUE
 
-
-print('Your temperature in Fahrenheit (F), will be: ', F)
+print('Your temperature in Fahrenheit , will be: ', temperature_in_fahrenheit)
 
 
