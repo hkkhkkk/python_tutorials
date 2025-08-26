@@ -1,10 +1,8 @@
-# converting kilometer to miles ;
+SCALING_FACTOR = 1.609344
 
-number = float(input('Enter value in km : '))
+number = float(input('Input distance in km : '))
 
+miles = number / SCALING_FACTOR
 
-miles = number / 1.609344
-
-
-print('Converting this value in km to miles will be  , :', miles)
+print('Converting this distance in km to miles will be:', miles)
 
